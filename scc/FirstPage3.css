@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em; 
+}
+.nav {
+  position: fixed;
+  color: #fff;
+   width: 100%;
+  background-color: #000;
+  z-index: 1;
+
+ }
+.firstBurg{
+  color: #fff;
+}
+._whiteMenu {
+  background-color: #fff;
+  color: #000;
+}
+.menu {
+  display: flex;
+  justify-content:space-between;
+  padding: 15px 30px 15px 20px;
+   margin-top: 0px;
+ 
+}
+
+.first_page {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  padding-bottom: 70px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #000;
+ 
+}
+
+
+
+.appeal {
+ text-align: right;
+ color: white;
+  font-size: 0.5em;
+  margin-right: 25px;
+  margin-bottom: 25px;
+
+  }
+
+
+.allSecondPage{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #000;
+  padding-bottom: 40px;
+
+}
+
+.secondCan{
+  width: 100%;
+  display: block;
+  height: 100%;
+
+  
+
+}
+
+.secondPage{
+  position: absolute;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+.destiny {
+ margin-bottom: 50px;
+  font-size: 0.7em;
+/*  letter-spacing: 6px;*/
+  top: -30px;
+  text-align: center;
+ 
+ 
+}
+
+.discribNeural{
+  text-align: justify;
+  width: 53%;
+  font-size: 0.7em;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+/*  opacity: 1;*/
+ 
+  
+}
+
+
+
+
+.thirdPage{
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  background-color: #fff;
+  padding-bottom: 40px;
+ 
+}
+.cnvas2{
+ display: block;
+ margin-top: 10px;
+}
+
+.coverThird{
+ width:100%;
+ position: absolute;
+ top: 80px;
+ display: flex;
+ flex-direction: column;
+   
+}
+.destiny1{
+  display: inline-block;
+/*  letter-spacing: 6px;*/
+  justify-content: center;
+  text-align: center;
+  font-size: 0.7em;
+    margin-top: 60px;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+
+.discribNeural1{
+  display: inline-block;
+  width: 53%;
+  display: flex;
+  font-size: 0.7em;
+  letter-spacing: 2px;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
+/*  opacity: 1;*/
+  
+}
+
+
+
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  font-size: 0.5em;
+  color: #e6e6e6;
+}
+
+.copy{
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+.copy1 {
+  object-fit: cover;
+  width: 100%;
+  height:100%;
+  margin-left: 10px;
+  
+}
+
+.recerv {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;
+   
+  
+}
+.popup.open {
+  opacity: 1;
+  visibility: visible;
+}
+.popup.open .popup_content{
+ transform: translate(0px, 0px);
+  opacity: 1;
+}
+.popup_body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
+.menu_popup {
+  position: relative;
+  
+}
+a{
+  text-decoration: none;
+}
+.popup_close{
+  position: relative;
+  display: inline-block;
+  top: 15px;
+ left: 98.6%;
+  
+}
+.popup_content{
+ 
+  color: #000;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+  transform: translate(0px, -100%);
+/*
+  transition: all 0.8s ease 0.3s;
+  transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+*/
+}
+table{
+  margin: 0 auto;
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+ 
+}
+td{
+  height: 30px;
+  padding: 15px;
+}
+.left{
+  text-align: right;
+  
+  width: 50%;
+}
+
+
+.popup a{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
